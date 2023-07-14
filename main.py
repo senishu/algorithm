@@ -22,9 +22,9 @@
 import os
 from random import randint
 
-for i in range(40, 80):
+for i in range(80, 90):
 
-    for j in range(0, randint(0, 2)):
+    for j in range(0, randint(0, 4)):
         d = str(i) + 'days ago'
         with open('data.txt', 'a') as file:
             file.write(d)
