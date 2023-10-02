@@ -22,7 +22,7 @@
 import os
 from random import randint
 
-for i in range(1, 60):
+for i in range(1, 30):
 
     for j in range(0, randint(0, 7)):
         d = str(i) + 'days ago'
